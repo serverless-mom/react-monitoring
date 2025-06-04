@@ -14,7 +14,7 @@ A working React site with a few example Playwright tests
 
 Deploy your own Vite project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=[nicas_repo]&template=vite-react)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=[\[nicas_repo\]](https://github.com/serverless-mom/react-monitoring/)&template=vite-react)
 
 _Live Example: https://react-monitoring.vercel.app/_
 

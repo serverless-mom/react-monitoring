@@ -10,7 +10,7 @@ test.afterAll(async () => {
   await page.close();
 });
 
-test('increment count button', async () => {
+test('increment count button, reused page', async () => {
   await page.goto('https://react-monitoring.vercel.app/');
   await page.getByRole('button', { name: 'count is' }).click();
   await page.getByRole('button', { name: 'count is' }).click();
@@ -18,7 +18,7 @@ test('increment count button', async () => {
   await expect(page.getByRole('button')).toContainText('count is 3');
 });
 
-test('count button resets on nav', async () => {
+test('count button resets on nav, reused page', async () => {
   await page.getByRole('button', { name: 'count is' }).click();
   await page.getByRole('button', { name: 'count is' }).click();
   await page.getByRole('link', { name: 'About' }).click();
