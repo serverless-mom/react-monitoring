@@ -1,16 +1,22 @@
-# React + TypeScript + Vite
+# React Monitoring with Playwright 
+## by Nočnica
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A working React site with a few example Playwright tests
 
-While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+## Setup
+1. clone repository
+1. create a subfolder for your playwright tests `mkdir playwright`
+1. navigate to the folder, and install playwright while setting up a project `cd playwright && npm init playwright@latest`
+1. [optional] install Vercel `pnpm i -g vercel`
+
 
 ## Deploy Your Own
 
 Deploy your own Vite project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vite-react&template=vite-react)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=[nicas_repo]&template=vite-react)
 
-_Live Example: https://vite-react-example.vercel.app_
+_Live Example: https://react-monitoring.vercel.app/_
 
 ### Deploying From Your Terminal
 
